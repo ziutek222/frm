@@ -1,0 +1,9 @@
+Strone uzytkownika z jego blogami
+
+Centrum uzytkownika do edytowania/usuwania postow
+
+Panel admina do zarzadzania postami uzytkownika
+
+Dodawanie blogow jako uzytkownik zalogowany zeby nazwe zczytywalo 
+
+i na koniec navbara wystilozowac legancko tego

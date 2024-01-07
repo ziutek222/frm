@@ -1,0 +1,107 @@
+body, head {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('../../../bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.go-to{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    width: 15%;
+    height: 100px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+    border-radius: 15px;
+}
+
+.navbar a:hover{
+    background-color: azure;
+    color: #4f46e5;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 45px;
+}
+
+.register-main{
+    width: 100%;
+    height: auto;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+label{
+    margin: 10px;
+}
+
+#name, #surname, #email, #password{
+    width: 15%;
+    margin-top: 15px;
+    border: 0px;
+    -webkit-box-shadow: 1px 4px 20px 11px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 1px 4px 20px 11px rgba(66, 68, 90, 1);
+    box-shadow: 1px 4px 20px 11px rgba(66, 68, 90, 1);
+}
+
+#sub{
+    width: 20%;
+    border-radius: 26px;
+    margin-top: 20px;
+    background-color: #4f46e5;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#sub:hover{
+    opacity: 0.8;
+}

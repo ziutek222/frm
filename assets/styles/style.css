@@ -1,0 +1,62 @@
+body, head {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+body{
+    background-image: url('../../bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1{
+    font-size: 45px;
+}
+
+.heading p{
+    font-size: 30px;
+}
+
+.bottom-heading{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.learn-more{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.get-started{
+    padding: 10px;
+    width: fit-content;
+    border-radius: 26px;
+    background-color: #4f46e5;
+}
+
+.get-started a, .learn-more a{
+    text-decoration: none;
+    color: black;
+}
+
+.learn-more a{
+    color: #4f46e5; 
+}
